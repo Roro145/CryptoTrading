@@ -1,2 +1,0 @@
-# CryptoTrading
-Cryptocurrency Trading Algorithm
