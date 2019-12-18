@@ -1,0 +1,166 @@
+
+
+
+
+
+
+
+"""
+Sample Output Records from the Trading Algorithm (Trading Log):
+
+#Attempt Number 100 at purchasing the currency
+
+Attempt Number:100
+Current Time: 2018-08-30 23:20:00
+Current Price: 0.00003126
+Currently attempting to purchase.. 646
+SMA check true - price low
+
+
+Attempt Number:101
+Current Time: 2018-08-30 23:21:00
+Current Price: 0.00003125
+Currently attempting to purchase.. 646
+SMA check true - price low
+
+
+Attempt Number:102
+Current Time: 2018-08-30 23:22:00
+Current Price: 0.00003126
+Currently attempting to purchase.. 646
+Trix increasing
+SMA check true - price low
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:23:00
+Current Price: 0.00003128
+Currently attempting to purchase.. 646
+MACD Cross True
+Trix increasing
+SMA increasing
+SMA check true - price low
+Initiating Buy order: 0.00003128
+Ideal Buy Conditions met, initiating simulation buy
+Currently attempting to sell..646
+
+#Buy conditions are met so it initiates a simulation buy
+#Converts all the BTC into XLM currency
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:23:00
+Current Price: 0.00003129
+Currently attempting to sell..646
+
+
+#The Attempt Number is set at 103 for all the sell attempts so that
+#the program doesn't end while still holding the second currency(XLM)
+
+Attempt Number:103
+Current Time: 2018-08-30 23:24:00
+Current Price: 0.00003130
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:25:00
+Current Price: 0.00003129
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:25:00
+Current Price: 0.00003140
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:26:00
+Current Price: 0.00003138
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:27:00
+Current Price: 0.00003135
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:28:00
+Current Price: 0.00003137
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:28:00
+Current Price: 0.00003140
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:29:00
+Current Price: 0.00003138
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:30:00
+Current Price: 0.00003140
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:30:00
+Current Price: 0.00003135
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:31:00
+Current Price: 0.00003137
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:32:00
+Current Price: 0.00003136
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:33:00
+Current Price: 0.00003141
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:33:00
+Current Price: 0.00003138
+Currently attempting to sell..646
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:34:00
+Current Price: 0.00003134
+Currently attempting to sell..646
+SMA is not increasing
+Trix is not increasing
+Initiating Sell order:0.00003134
+Ideal Sell Conditions met, initiating simulation sell
+Percent Profit: 0.1918158568
+Total Trades:1
+
+#The conditions are met which indicate a strong sell
+#Algorithim converts the XLM back into BTC and determines Percent Profit(0.19%)
+
+
+Attempt Number:103
+Current Time: 2018-08-30 23:35:00
+Current Price: 0.00003135
+Currently attempting to purchase.. 645
+MACD before is True
+
+#Algorithim shifts back into a buy position to purchase XLM
+"""
