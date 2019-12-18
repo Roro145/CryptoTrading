@@ -1,6 +1,6 @@
 Overall Summary of Cryptocurrency Trading Algorithm:
 
-    Program Last Updated: August 2017
+    Program Last Updated: August 2018
 
     First, the program collects historical data (ex: past 35 minutes) to attain values
 which can be passed through indicators to determine the current state of the market.
